@@ -19,7 +19,7 @@ const ENABLE_THINKING = Deno.env.get("ENABLE_THINKING") === "true";
 
 // Admin authentication configuration
 const ADMIN_USERNAME = Deno.env.get("ADMIN_USERNAME") || "admin";
-const ADMIN_PASSWORD = Deno.env.get("ADMIN_PASSWORD") || "123456";
+const ADMIN_PASSWORD = Deno.env.get("ADMIN_PASSWORD") || "admin888*";
 const ADMIN_ENABLED = Deno.env.get("ADMIN_ENABLED") !== "false";
 
 // Browser headers for upstream requests (2025-09-30 更新：修复426错误)
